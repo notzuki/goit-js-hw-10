@@ -18,7 +18,7 @@ startButton.disabled = true;
 let userSelectedDate = null;
 let timerId = null;
 
-flatpickr(datetimePicker, {
+
   enableTime: true,
   time_24hr: true,
   defaultDate: new Date(),
