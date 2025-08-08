@@ -75,7 +75,7 @@ function addLeadingZero(value) {
   return String(value).padStart(2, "0");
 }
 
-
+function convertMs(ms) {
   const second = 1000;
   const minute = second * 60;
   const hour = minute * 60;
